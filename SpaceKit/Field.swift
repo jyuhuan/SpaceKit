@@ -32,6 +32,16 @@ protocol Field {
 
 extension Field {
     
+    static func * (x: Self, multiples: Int) -> Self {
+        var result = Self.zero
+        var multiplesLeft = multiples
+        while multiplesLeft > 0 {
+            result = result + x
+            multiplesLeft -= 1
+        }
+        return result
+    }
+    
     static func ^ (x: Self, power: Int) -> Self {
         var result = Self.one
         var powerLeft = power

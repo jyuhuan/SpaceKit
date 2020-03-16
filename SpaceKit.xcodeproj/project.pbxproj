@@ -23,6 +23,17 @@
 		961A97AC241F2D2E001DF986 /* ComplexFieldTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961A97AB241F2D2E001DF986 /* ComplexFieldTest.swift */; };
 		961A97AE241F3A4F001DF986 /* PolynomialVectorSpaceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961A97AD241F3A4F001DF986 /* PolynomialVectorSpaceTest.swift */; };
 		961A97B0241F3F6C001DF986 /* PolynomialTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961A97AF241F3F6C001DF986 /* PolynomialTest.swift */; };
+		9670A1ED241F694700C51AAA /* LinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1EC241F694700C51AAA /* LinearMap.swift */; };
+		9670A1EE241F694700C51AAA /* LinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1EC241F694700C51AAA /* LinearMap.swift */; };
+		9670A1F0241F69AB00C51AAA /* ZeroLinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1EF241F69AB00C51AAA /* ZeroLinearMap.swift */; };
+		9670A1F1241F69AB00C51AAA /* ZeroLinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1EF241F69AB00C51AAA /* ZeroLinearMap.swift */; };
+		9670A1F3241F6A5C00C51AAA /* IdentiyLinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1F2241F6A5C00C51AAA /* IdentiyLinearMap.swift */; };
+		9670A1F4241F6A5C00C51AAA /* IdentiyLinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1F2241F6A5C00C51AAA /* IdentiyLinearMap.swift */; };
+		9670A1F6241F6EAF00C51AAA /* DifferentiationLinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1F5241F6EAF00C51AAA /* DifferentiationLinearMap.swift */; };
+		9670A1F7241F6EAF00C51AAA /* DifferentiationLinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1F5241F6EAF00C51AAA /* DifferentiationLinearMap.swift */; };
+		9670A1F9241F732400C51AAA /* TestLinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1F8241F732400C51AAA /* TestLinearMap.swift */; };
+		9670A1FB241F755A00C51AAA /* Endomorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1FA241F755A00C51AAA /* Endomorphism.swift */; };
+		9670A1FC241F755A00C51AAA /* Endomorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670A1FA241F755A00C51AAA /* Endomorphism.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,12 @@
 		961A97AD241F3A4F001DF986 /* PolynomialVectorSpaceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolynomialVectorSpaceTest.swift; sourceTree = "<group>"; };
 		961A97AF241F3F6C001DF986 /* PolynomialTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolynomialTest.swift; sourceTree = "<group>"; };
 		961A97B1241F57DB001DF986 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9670A1EC241F694700C51AAA /* LinearMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearMap.swift; sourceTree = "<group>"; };
+		9670A1EF241F69AB00C51AAA /* ZeroLinearMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroLinearMap.swift; sourceTree = "<group>"; };
+		9670A1F2241F6A5C00C51AAA /* IdentiyLinearMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentiyLinearMap.swift; sourceTree = "<group>"; };
+		9670A1F5241F6EAF00C51AAA /* DifferentiationLinearMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentiationLinearMap.swift; sourceTree = "<group>"; };
+		9670A1F8241F732400C51AAA /* TestLinearMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLinearMap.swift; sourceTree = "<group>"; };
+		9670A1FA241F755A00C51AAA /* Endomorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endomorphism.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +118,7 @@
 				961A9798241F29F0001DF986 /* Complex.swift */,
 				961A9799241F29F0001DF986 /* VectorSpace.swift */,
 				961A979C241F29F0001DF986 /* Polynomial.swift */,
+				9670A1FD241F767A00C51AAA /* LinearMap */,
 			);
 			path = SpaceKit;
 			sourceTree = "<group>";
@@ -108,6 +126,7 @@
 		961A978A241F29D2001DF986 /* SpaceKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				9670A1F8241F732400C51AAA /* TestLinearMap.swift */,
 				961A97A9241F2A33001DF986 /* RealFieldTest.swift */,
 				961A97AB241F2D2E001DF986 /* ComplexFieldTest.swift */,
 				961A97AF241F3F6C001DF986 /* PolynomialTest.swift */,
@@ -115,6 +134,18 @@
 				961A978D241F29D2001DF986 /* Info.plist */,
 			);
 			path = SpaceKitTests;
+			sourceTree = "<group>";
+		};
+		9670A1FD241F767A00C51AAA /* LinearMap */ = {
+			isa = PBXGroup;
+			children = (
+				9670A1EC241F694700C51AAA /* LinearMap.swift */,
+				9670A1FA241F755A00C51AAA /* Endomorphism.swift */,
+				9670A1EF241F69AB00C51AAA /* ZeroLinearMap.swift */,
+				9670A1F2241F6A5C00C51AAA /* IdentiyLinearMap.swift */,
+				9670A1F5241F6EAF00C51AAA /* DifferentiationLinearMap.swift */,
+			);
+			path = LinearMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,11 +258,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9670A1F3241F6A5C00C51AAA /* IdentiyLinearMap.swift in Sources */,
 				961A979F241F29F0001DF986 /* Complex.swift in Sources */,
+				9670A1FB241F755A00C51AAA /* Endomorphism.swift in Sources */,
+				9670A1F6241F6EAF00C51AAA /* DifferentiationLinearMap.swift in Sources */,
 				961A97A7241F29F0001DF986 /* Polynomial.swift in Sources */,
+				9670A1F0241F69AB00C51AAA /* ZeroLinearMap.swift in Sources */,
 				961A97A1241F29F0001DF986 /* VectorSpace.swift in Sources */,
 				961A97A3241F29F0001DF986 /* Field.swift in Sources */,
 				961A979D241F29F0001DF986 /* Real.swift in Sources */,
+				9670A1ED241F694700C51AAA /* LinearMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,15 +275,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9670A1F4241F6A5C00C51AAA /* IdentiyLinearMap.swift in Sources */,
 				961A97B0241F3F6C001DF986 /* PolynomialTest.swift in Sources */,
+				9670A1FC241F755A00C51AAA /* Endomorphism.swift in Sources */,
 				961A97A4241F29F0001DF986 /* Field.swift in Sources */,
 				961A97A0241F29F0001DF986 /* Complex.swift in Sources */,
 				961A97AE241F3A4F001DF986 /* PolynomialVectorSpaceTest.swift in Sources */,
+				9670A1F1241F69AB00C51AAA /* ZeroLinearMap.swift in Sources */,
 				961A97AC241F2D2E001DF986 /* ComplexFieldTest.swift in Sources */,
 				961A97A8241F29F0001DF986 /* Polynomial.swift in Sources */,
 				961A979E241F29F0001DF986 /* Real.swift in Sources */,
+				9670A1F9241F732400C51AAA /* TestLinearMap.swift in Sources */,
 				961A97AA241F2A33001DF986 /* RealFieldTest.swift in Sources */,
 				961A97A2241F29F0001DF986 /* VectorSpace.swift in Sources */,
+				9670A1EE241F694700C51AAA /* LinearMap.swift in Sources */,
+				9670A1F7241F6EAF00C51AAA /* DifferentiationLinearMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

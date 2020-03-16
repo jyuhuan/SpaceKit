@@ -6,6 +6,9 @@
 //  Copyright © 2020 Yuhuan Jiang. All rights reserved.
 //
 
+import Foundation
+
+
 typealias Real = Double
 
 extension Real: Field {
@@ -15,5 +18,5 @@ extension Real: Field {
     static var one: Real { 1.0 }
     
     var reciprocal: Real {1.0 / self }
-    
+     
 }

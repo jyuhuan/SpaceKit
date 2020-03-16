@@ -32,6 +32,15 @@ struct Polynomial<F: Field & Equatable> {
             .reduce(.zero, +)
     }
     
+    var derivative: Polynomial<F> {
+        Polynomial(
+            coefficients: self.coefficients.dropFirst().enumerated().map { (arg) -> F in
+                let (idx, coeff) = arg
+                return coeff * (idx + 1)
+            }
+        )
+    }
+    
 }
 
 extension Polynomial: VectorSpace {

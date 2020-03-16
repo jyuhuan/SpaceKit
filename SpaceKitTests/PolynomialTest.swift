@@ -35,6 +35,13 @@ class PolynomialTest: XCTestCase {
         )
     }
     
+    func testDerivative() {
+        XCTAssertEqual(
+            Polynomial<Real>(coefficients: [2, 3, 4, 5]).derivative,
+            Polynomial<Real>(coefficients: [3, 8, 15])
+        )
+    }
+    
     func testDescription() {
         
         XCTAssertEqual(
